@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.putragandad.retrofitexercise.api.ApiClient
 import com.putragandad.retrofitexercise.repositories.MoviesRepository
-import com.putragandad.retrofitexercise.utils.RemoteDataSource
+import com.putragandad.retrofitexercise.repositories.RemoteDataSource
 
 class MoviesViewModelFactory(val remoteDataSource: RemoteDataSource) :
     ViewModelProvider.NewInstanceFactory() {

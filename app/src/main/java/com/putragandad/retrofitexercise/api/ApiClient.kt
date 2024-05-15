@@ -24,7 +24,4 @@ object ApiClient {
         .client(httpClient.build())
         .build()
         .create(ApiService::class.java)
-
-
-
 }

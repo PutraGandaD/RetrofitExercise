@@ -1,4 +1,4 @@
-package com.putragandad.retrofitexercise.utils
+package com.putragandad.retrofitexercise.repositories
 
 import com.putragandad.retrofitexercise.api.ApiService
 
